@@ -3,20 +3,10 @@
 
 int main()
 {
-    int n, bez;
+    int n;
 
     scanf("%d", &n);
-
-    if(n<0)
-    {
-        bez=n*(-1);
-    }
-    else
-    {
-        bez=n;
-    }
-
-    printf("%d\n", bez);
+    printf("%d\n", abs(n));
 
     return 0;
 }
