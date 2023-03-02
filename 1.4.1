@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, m, wielo;
+    scanf("%d %d", &n, &m);
+
+    for (int i = 1; i<m; i++)
+    {
+        wielo = (n*i);
+
+        if(wielo<m)
+        {
+            printf("%d\n", wielo);
+        }
+        else
+        {
+            break;
+        }
+    }
+    
+    return 0;
+}
