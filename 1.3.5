@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b, c, h, polowa, pole, wybor;
+    printf("Oblicz pole trojkata:\n 1 dla podstawy i wysokosci\n 2 dla bokow\n");
+    scanf("%d", &wybor);
+
+switch (wybor)
+{
+case 1:
+    scanf("%d %d", &a, &h);
+    pole=((a*h)/2);
+    printf("%d", pole);
+
+break;
+
+case 2:
+    scanf("%d %d %d", &a, &b, &c);
+    polowa=((a+b+c)/2);
+    pole=(((polowa-a)*(polowa-b)*(polowa-c))*(0,5));
+    printf("%df", pole);
+
+break;
+}
+    return 0;
+}
