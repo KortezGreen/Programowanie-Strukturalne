@@ -1,1 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+    unsigned int n;
+    int silnia = 1;
+
+    scanf("%d", &n);
+
+	for(int i=n;i>1;i--)
+    {
+        silnia*=i;
+    }
+
+    printf("%d\n", silnia);
+
+    return 0;
+}
