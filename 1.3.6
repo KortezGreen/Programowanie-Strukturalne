@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    //Dane
+    printf("Podaj wspolczynniki: \n");
+
+    float a1, b1, c1, a2, b2, c2;
+
+    printf("a1: ");
+    scanf("%fl", &a1);
+
+    printf("b1: ");
+    scanf("%fl", &b1);
+
+    printf("c1: ");
+    scanf("%fl", &c1);
+
+    printf("a2: ");
+    scanf("%fl", &a2);
+
+    printf("b2: ");
+    scanf("%fl", &b2);
+
+    printf("c2: ");
+    scanf("%fl", &c2);
+
+    //Obliczenia
+    float wx, wy, w, x, y;
+    wx = c1*b2-b1*c2;
+    wy = a1*c2-c1*a2;
+    w = a1*b2-b1*a2;
+    x = wx/w;
+    y = wy/w;
+
+    if (w!=0)
+    {
+        printf("\n x = ", wx/w);
+        printf("  y = ", wy/w, "\n");
+    }
+    else
+    {
+           if((wx==0)&&(wy==0))
+        {
+            printf("\nUklad nieoznaczony.\n");
+        }
+        else
+        {
+            printf("\nUklad sprzeczny.\n");
+        }
+    }
+    return 0;
+}
