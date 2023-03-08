@@ -192,7 +192,7 @@ break;
     }
 */
     
-//1.3.6
+//1.3.6 zle
 /*
     //Dane
     printf("Podaj wspolczynniki: \n");
