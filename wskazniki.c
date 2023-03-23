@@ -36,9 +36,24 @@
 //}
 
 //3.2.4
+//int zamiana(int *a, int *b)
+//{
+//    if(*a>*b)
+//    {
+//        int z=*a;
+//        *a=*b;
+//        *b=z;
+//        printf("A jest teraz rowne: %d zas B to: %d", *a, *b);
+//        return 1;
+//    }
+//    else
+//    {
+//        printf("Nic sie nie stalo");
+//        return 0;
+//    }
+//}
 
-
-
+//3.
 
 
 
@@ -72,6 +87,13 @@ int main()
 //najws(&a, &b);
 
 //3.2.4
+//int a;
+//int b;
+//scanf("%i %i", &a, &b);
+//zamiana(&a, &b);
+
+//3.
+
 
 
 return 0;
