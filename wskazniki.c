@@ -53,7 +53,13 @@
 //    }
 //}
 
-//3.
+//3.2.6
+int zapisz(int n, int *w)
+{
+
+*w = n;
+
+}
 
 
 
@@ -92,9 +98,12 @@ int main()
 //scanf("%i %i", &a, &b);
 //zamiana(&a, &b);
 
-//3.
-
-
+//3.2.6
+int n, *w, wartosc;
+*w = wartosc;
+printf("Podaj liczbę n: ");
+scanf("%i", &n);
+zapisz(&n, &*w);
 
 return 0;
 }
