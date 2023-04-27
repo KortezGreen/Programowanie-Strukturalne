@@ -24,7 +24,31 @@ int dlugosc2(wchar_t napis[])
 }
 
 //5.2.3
+int porownaj(char na, char nb)
+{
+    int i = 0;
+    while (na[i] != '\0')
+    {
+        i++;
+    }
+    int nal = i;
 
+    int i = 0;
+    while (nb[i] != '\0')
+    {
+        i++;
+    }
+    int nbl = i;
+
+    if (nal == nbl)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
 
 //5.2.6
 
@@ -51,6 +75,9 @@ int main()
     wprintf(L"Dlugosc wynosi : %d\n", wynik2);
 
     printf("Zadanie 5.2.3\n");
+    char nap1 = "to nie tak";
+    char nap2 + "to tak nie chyba";
+    porownaj(char nap1, char nap2);
 
     printf("Zadanie 5.2.6\n");
 
