@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 //7.2.1
 //struct trojkat {
@@ -12,6 +13,22 @@
 //    double pole = tro.a+tro.b+tro.c;
 //    return pole;
 //}
+
+//7.2.11
+//void zerojeden (Dane)
+//{
+//    printf("Jaka liczbe chcesz wczytac?/n calkowita/n wymierna/n");
+//    char pytanie;
+//    scanf(pytanie);
+//    if (pytanie="calkowita")
+//    {
+//        return tp = 0;
+//    }
+//    else
+//    {
+//        return tp = 1;
+//    }
+
 
 int main()
 {
@@ -35,7 +52,18 @@ int main()
 //int G;
 //unsigned int H;};
 
-//7.2.
+//7.2.11
+//union Liczba {
+//int cal;
+//double wym;};
+//
+//struct Dane {
+//int tp;
+//Liczba zaw;
+};
+
+//7.2.15
+//enum zwierzak {kot, pies, krolik, mysz, szczur, pajak, papuga};
 
 
     return 0;
